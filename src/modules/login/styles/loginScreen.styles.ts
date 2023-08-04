@@ -1,4 +1,7 @@
+import { Space, Typography } from 'antd';
 import styled from 'styled-components';
+
+const { Text, Title } = Typography;
 
 export const DivBody = styled.div`
   display: flex;
@@ -21,6 +24,7 @@ export const DivLogin = styled.div`
   height: 100vh;
   background-color: #d9d9d9;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 24px;
@@ -34,3 +38,5 @@ export const DivContainer = styled.div`
 export const LogoImage = styled.img`
   width: 50%;
 `;
+
+export const TitleLogin = styled(Title)``;
